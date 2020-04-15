@@ -1,0 +1,55 @@
+/* You can add global styles to this file, and also import other style files */
+@import "./variable.scss";
+
+*:focus {
+  outline: 0;
+}
+* {
+  box-sizing: border-box !important;
+}
+body {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+input:focus {
+  box-shadow: none !important;
+}
+fa-icon {
+  color: $appColor;
+}
+
+.UCard {
+  box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -2px rgba(0, 0, 0, 0.12), 0 0px 0px 0 rgba(0, 0, 0, 0.2);
+}
+.cardShadow3 {
+  box-shadow: 0 0 0 1px rgba(89, 105, 128, 0.1), 0 3px 20px 0 rgba(89, 105, 128, 0.3), 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+.cardShadow2 {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.UBtn {
+  letter-spacing: 1px;
+  border: 0.5px solid #fff;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 0px 15px;
+  color: #fff;
+  font-size: 0.8rem;
+  line-height: 35px;
+  background-color: $appColor;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 3px 0 rgba(0, 0, 0, 0.19);
+}
+.UBtn:hover {
+  color: $appColor;
+  background-color: #fff;
+  border-color: $appColor;
+}
+
+.UBtn2 {
+  @extend .UBtn;
+  color: $appColor;
+  background-color: #fff;
+  border-color: $appColor;
+}
