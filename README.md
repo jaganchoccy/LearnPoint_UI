@@ -6,7 +6,7 @@ The frontend is generated with [Angular CLI](https://github.com/angular/angular-
 
 This project uses:
 * [**A**ngular 8](https://angular.io): frontend framework
-* [**Python](https://nodejs.org): an interpreted, high-level, general-purpose programming language
+* [**P**ython](https://nodejs.org): an interpreted, high-level, general-purpose programming language
 
 Other tools and technologies used:
 * [Angular CLI](https://cli.angular.io): frontend scaffolding
@@ -25,7 +25,7 @@ Other tools and technologies used:
 
 # Unitrix
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.14.
 
 ## Development server
 

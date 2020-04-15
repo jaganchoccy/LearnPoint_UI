@@ -6,15 +6,15 @@ import { Injectable } from '@angular/core';
 export class ConfigUrl {
 
     signUpUrl: any;
-
+    signInUrl: any;
+    reset: any;
 
     constructor() {
-
         //signup 
-        //this.signUpUrl = '/Auth/signUp';
-
-        
-        
-
+        this.signUpUrl = '/Auth/signUp';
+        //signin
+        this.signInUrl = '/Auth/signIn';
+        //reset password
+        this.reset = '/Auth/resetPassword';
     }
 }
