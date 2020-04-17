@@ -21,6 +21,9 @@ Other tools and technologies used:
 2. Install Angular CLI: `npm i -g @angular/cli`
 3. From project root folder install all the dependencies: `npm i`
 
+Application color code
+
+    #388a6a
 
 
 # Unitrix
