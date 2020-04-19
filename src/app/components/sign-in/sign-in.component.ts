@@ -59,7 +59,7 @@ export class SignInComponent implements OnInit {
         } else {
 
           console.log(res, 'succ');
-          this.router.navigateByUrl('/haurient');
+          this.router.navigateByUrl('/main');
         }
       });
     }
@@ -67,7 +67,7 @@ export class SignInComponent implements OnInit {
 
   //modal 
   openModalForgetPswd(template: TemplateRef<any>) {
-    this.modalRef = this.modalService.show(template, { class: 'haurientModal' });
+    this.modalRef = this.modalService.show(template, { class: 'unitrixModal' });
   }
   
   //forget pswd

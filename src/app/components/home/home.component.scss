@@ -12,18 +12,25 @@
     top: 48%;
     transform: translate(0%, -50%);
     .def {
-        color: #ffffff8c;
+        color: $lightG;
     }
 }
+
 .count {
     height: 12vh;
 
     .data {
-        padding: 10px;
-        text-align: center;
-        background-color: $SndColor;
+        background: $SndColor;
         span {
-            color: #ffffff8c;
+            color: $lightG;
+        }
+        .inner {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            left: 50%;
+            transform: translate(-50%, -50%);
         }
     }
 }
@@ -35,12 +42,11 @@
     position: absolute;
     top: 14px;
     width: 1.4px;
-    background: #ffffff8c;
+    background: $lightG;
 }
 .how {
-    background: #f9f5f1;
-    height: calc(100vh - 60px);
-    padding: 6vw 4vw 0vw;
+    background: $grey;
+    padding: 6vw 4vw;
     h3 {
         span {
             color: $appColor;
@@ -69,51 +75,51 @@
         padding: 5px 4vw;
         font-size: 13px;
     }
-    h6{
+    h6 {
         margin-top: 1vw;
     }
 }
-.instructor{
+.instructor {
     position: relative;
-    background: #f9f5f1;
+    background: $grey;
     height: calc(50vh - 60px);
     padding: 0vw 4vw;
     text-align: center;
-    h4,h3 {
+    h4,
+    h3 {
         span {
             color: $appColor;
         }
     }
-    .label{
+    .label {
         color: #848484;
         font-size: 14px;
         letter-spacing: 1px;
     }
 }
-.inst{
+.inst {
     padding: 4vw 4vw 0;
-    p{
+    p {
         color: #848484;
         font-size: 13px;
     }
 }
 
-.instructor2{
-    background:$SndColor;
-    height: calc(50vh - 60px);
-    padding: 0vw 4vw;
+.instructor2 {
+    background: $SndColor;
+    padding: 0vw 4vw 4vw;
     text-align: center;
-    .inst{
+    .inst {
         color: white;
-        p{
-            color: #ffffff8c;
+        p {
+            color: $lightG;
         }
     }
 }
-.inImg{
+.inImg {
     position: absolute;
     top: 8vw;
     left: 8vw;
     width: 50%;
-    box-shadow: 0 10px 14px 0 rgba(0,0,0,0.2),0 3px 12px 0 rgba(0,0,0,0.19) !important;
+    box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.2), 0 3px 12px 0 rgba(0, 0, 0, 0.19) !important;
 }

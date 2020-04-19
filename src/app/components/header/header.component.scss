@@ -8,17 +8,8 @@ nav {
 
     span {
         font-size: $appFont;
-        color: $fontColor;
     }
-    .logo {
-        color: $appColor;
-        font-weight: 900;
-        b {
-            font-size: 2.5rem;
-            padding: 0 5px;
-            font-family: "Alex Brush";
-        }
-    }
+    
     .sign {
         line-height: 30px;
         padding: 0px 10px;
