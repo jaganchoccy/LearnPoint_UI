@@ -1,0 +1,125 @@
+@import "../../../styles.scss";
+.main {
+    height: calc(88vh - 60px);
+    background: $appColor;
+    margin-top: 60px;
+}
+
+.content {
+    padding: 0 5vw;
+    color: $white;
+    position: absolute;
+    top: 48%;
+    transform: translate(0%, -50%);
+    .def {
+        color: $lightG;
+    }
+}
+
+.count {
+    height: 12vh;
+
+    .data {
+        background: $SndColor;
+        span {
+            color: $lightG;
+        }
+        .inner {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+}
+.dash:after {
+    content: "";
+    display: block;
+    height: 48px;
+    left: 0px;
+    position: absolute;
+    top: 14px;
+    width: 1.4px;
+    background: $lightG;
+}
+.how {
+    background: $grey;
+    padding: 6vw 4vw;
+    h3 {
+        span {
+            color: $appColor;
+        }
+    }
+    .label {
+        color: #848484;
+        font-size: 12px;
+        letter-spacing: 1px;
+        margin: 2vw 0 3vw;
+    }
+}
+.svgImg {
+    width: 50%;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.works {
+    background: $white;
+    padding: 8px;
+    p {
+        margin: 0;
+        text-align: center;
+        padding: 5px 4vw;
+        font-size: 13px;
+    }
+    h6 {
+        margin-top: 1vw;
+    }
+}
+.instructor {
+    position: relative;
+    background: $grey;
+    height: calc(50vh - 60px);
+    padding: 0vw 4vw;
+    text-align: center;
+    h4,
+    h3 {
+        span {
+            color: $appColor;
+        }
+    }
+    .label {
+        color: #848484;
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+}
+.inst {
+    padding: 4vw 4vw 0;
+    p {
+        color: #848484;
+        font-size: 13px;
+    }
+}
+
+.instructor2 {
+    background: $SndColor;
+    padding: 0vw 4vw 4vw;
+    text-align: center;
+    .inst {
+        color: white;
+        p {
+            color: $lightG;
+        }
+    }
+}
+.inImg {
+    position: absolute;
+    top: 8vw;
+    left: 8vw;
+    width: 50%;
+    box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.2), 0 3px 12px 0 rgba(0, 0, 0, 0.19) !important;
+}
